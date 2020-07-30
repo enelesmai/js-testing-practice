@@ -4,7 +4,8 @@
     "description": "Practicing TDD using Jest.",
     "main": "index.js",
     "scripts": {
-        "test": "jest"
+        "test": "jest",
+        "watch": "jest --watch ./src/components/test/*.js"
     },
     "repository": {
         "type": "git",
